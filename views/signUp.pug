@@ -1,0 +1,17 @@
+include header
+h1#titre(class='ui header') Inscription 
+  i(aria-hidden="true" class='signup icon') 
+div(class="ui container")   
+  div#form(class='ui form')
+    form(action="/signup", method="post")
+      div(class='field')
+        label Identifiant
+        div(class='ui input')
+          input(type="text", name="username", placeholder="Identifiant", required)
+      div(class='field')    
+        label Password
+        div(class='ui input')
+          input(type="password", name="password", placeholder="Mot de passe", required="required")
+      div(class='field')     
+        input( class='ui olive right floated button' type="submit" icon='heart icon' value='Envoyer')
+         

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    if title
+      title=title
+    else 
+      title Auth App
+    link(rel="shortcut icon" href="")
+    
+    link(rel='stylesheet'  href='https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.css')
+    style 
+      include ../public/css/style.css
+  body
+if title !== 'Index' 
+    div(class='ui inverted three item menu')
+      a(class="red item" href="home" ) Homepage
+      a(class="blue item" href="signup") Inscription
+      a(class="green item" href='login') Connexion
+  
+if error
+  div#error(class='ui negative message') 
+    error=error
+  
+     
+  
