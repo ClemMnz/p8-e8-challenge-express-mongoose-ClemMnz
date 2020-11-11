@@ -1,0 +1,33 @@
+#titre {
+  color: grey;
+  margin-left: 40%;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 3%;
+  font-size: xx-large;
+}
+
+.myButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.conteneur {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+#error {
+  display: flex;
+  justify-content: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 3%;
+}
+
+#form {
+  margin-left: 25%;
+  margin-right: 25%;
+}
